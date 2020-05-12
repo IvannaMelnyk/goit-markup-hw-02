@@ -96,3 +96,22 @@ footer {
   background-color: var(--accent-color);
 }
 /* Портфолио */
+/* Кнопки фильтра */
+.filter-list .link {
+  background-color: #f5f4fa;
+  color: var(--title-text-color);
+}
+.filter-list .link:hover,
+.filter-list .link:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+.portfolio-list .text {
+  color: var(--title-text-color);
+}
+.portfolio-list .title {
+  color: var(--title-text-color);
+}
+.portfolio-list .subtitle {
+  color: var(--primary-text-color);
+}
